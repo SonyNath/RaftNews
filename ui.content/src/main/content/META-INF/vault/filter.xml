@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/raftTraining" mode="merge"/>
+    <filter root="/content/raftTraining" mode="merge"/>
+    <filter root="/content/dam/raftTraining" mode="merge">
+        <exclude pattern="/content/dam/raftTraining(/.*)?"/>
+        <include pattern="/content/dam/raftTraining/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/raftTraining/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/raftTraining" mode="merge"/>
+</workspaceFilter>
